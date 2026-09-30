@@ -1,0 +1,262 @@
+{
+  "channels": [
+    {
+      "id": "nairobi-vision",
+      "name": "Nairobi Vision",
+      "market": "Local",
+      "region": "Local",
+      "coveragePercent": 72,
+      "baseCost": 180000,
+      "reach": 980000,
+      "officialWebsite": "https://www.nairobivision.co.ke",
+      "phone": "+254 20 233 5500",
+      "email": "sales@nairobivision.co.ke",
+      "social": "@NairobiVisionTV",
+      "adDurations": [15, 30, 60, 90],
+      "contentRestrictions": [
+        "No hate speech or extremist messaging",
+        "No false health or financial claims",
+        "No vulgar or explicit sexual content",
+        "No political misinformation"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 18 },
+          { "label": "25-34", "share": 34 },
+          { "label": "35-49", "share": 27 },
+          { "label": "50+", "share": 21 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 14 },
+          { "label": "Afternoon", "share": 28 },
+          { "label": "Prime Time", "share": 41 },
+          { "label": "Late Night", "share": 17 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 32 },
+          { "label": "Thu-Fri", "share": 26 },
+          { "label": "Weekend", "share": 42 }
+        ]
+      }
+    },
+    {
+      "id": "east-tv",
+      "name": "East TV",
+      "market": "Regional",
+      "region": "Local",
+      "coveragePercent": 68,
+      "baseCost": 165000,
+      "reach": 910000,
+      "officialWebsite": "https://www.easttv.co.ke",
+      "phone": "+254 20 923 4000",
+      "email": "media@easttv.co.ke",
+      "social": "@EastTVKenya",
+      "adDurations": [15, 30, 60],
+      "contentRestrictions": [
+        "No discriminatory messaging",
+        "No misleading product guarantees",
+        "No violent or threatening scenes",
+        "No unverified public health claims"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 16 },
+          { "label": "25-34", "share": 30 },
+          { "label": "35-49", "share": 29 },
+          { "label": "50+", "share": 25 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 17 },
+          { "label": "Afternoon", "share": 29 },
+          { "label": "Prime Time", "share": 38 },
+          { "label": "Late Night", "share": 16 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 30 },
+          { "label": "Thu-Fri", "share": 27 },
+          { "label": "Weekend", "share": 43 }
+        ]
+      }
+    },
+    {
+      "id": "country-24",
+      "name": "Country 24",
+      "market": "National",
+      "region": "Local",
+      "coveragePercent": 77,
+      "baseCost": 230000,
+      "reach": 1200000,
+      "officialWebsite": "https://www.country24.africa",
+      "phone": "+254 710 910 220",
+      "email": "ads@country24.africa",
+      "social": "@Country24TV",
+      "adDurations": [30, 60, 90],
+      "contentRestrictions": [
+        "Avoid exaggerated claims about products",
+        "No nudity or explicit sexual content",
+        "No sensationalism around tragedy",
+        "No targeted misinformation during elections"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 20 },
+          { "label": "25-34", "share": 35 },
+          { "label": "35-49", "share": 28 },
+          { "label": "50+", "share": 17 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 12 },
+          { "label": "Afternoon", "share": 27 },
+          { "label": "Prime Time", "share": 46 },
+          { "label": "Late Night", "share": 15 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 31 },
+          { "label": "Thu-Fri", "share": 25 },
+          { "label": "Weekend", "share": 44 }
+        ]
+      }
+    },
+    {
+      "id": "cnn-international",
+      "name": "CNN International",
+      "market": "Global",
+      "region": "Global",
+      "coveragePercent": 91,
+      "baseCost": 430000,
+      "reach": 2600000,
+      "officialWebsite": "https://edition.cnn.com/business/media",
+      "phone": "+1 404 827 1500",
+      "email": "advertising@cnn.com",
+      "social": "@CNNBusiness",
+      "adDurations": [15, 30, 60],
+      "contentRestrictions": [
+        "No explicit nudity or graphic violence",
+        "No hate speech or discriminatory content",
+        "No misleading health or financial advice",
+        "No deceptive political endorsements"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 15 },
+          { "label": "25-34", "share": 33 },
+          { "label": "35-49", "share": 32 },
+          { "label": "50+", "share": 20 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 18 },
+          { "label": "Afternoon", "share": 22 },
+          { "label": "Prime Time", "share": 43 },
+          { "label": "Late Night", "share": 17 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 27 },
+          { "label": "Thu-Fri", "share": 29 },
+          { "label": "Weekend", "share": 44 }
+        ]
+      }
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC World News",
+      "market": "Global",
+      "region": "Global",
+      "coveragePercent": 88,
+      "baseCost": 390000,
+      "reach": 2480000,
+      "officialWebsite": "https://www.bbc.com/mediaaction",
+      "phone": "+44 20 8008 0000",
+      "email": "advertising@bbc.co.uk",
+      "social": "@BBCMediaAction",
+      "adDurations": [15, 30, 60, 90],
+      "contentRestrictions": [
+        "No misinformation or conspiracy claims",
+        "No harmful medical misinformation",
+        "No explicit graphic content",
+        "No discriminatory or defamatory material"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 18 },
+          { "label": "25-34", "share": 29 },
+          { "label": "35-49", "share": 31 },
+          { "label": "50+", "share": 22 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 20 },
+          { "label": "Afternoon", "share": 21 },
+          { "label": "Prime Time", "share": 44 },
+          { "label": "Late Night", "share": 15 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 28 },
+          { "label": "Thu-Fri", "share": 30 },
+          { "label": "Weekend", "share": 42 }
+        ]
+      }
+    },
+    {
+      "id": "al-jazeera",
+      "name": "Al Jazeera English",
+      "market": "Global",
+      "region": "Global",
+      "coveragePercent": 84,
+      "baseCost": 360000,
+      "reach": 2200000,
+      "officialWebsite": "https://network.aljazeera.net/en/advertise",
+      "phone": "+974 4460 0000",
+      "email": "sales@aljazeera.net",
+      "social": "@AJEnglish",
+      "adDurations": [15, 30, 60],
+      "contentRestrictions": [
+        "No toxic or extremist messaging",
+        "No discriminatory depictions",
+        "No unverified political claims",
+        "No graphic depictions of violence or gore"
+      ],
+      "audienceProfile": {
+        "mainAgeGroups": [
+          { "label": "18-24", "share": 21 },
+          { "label": "25-34", "share": 32 },
+          { "label": "35-49", "share": 29 },
+          { "label": "50+", "share": 18 }
+        ],
+        "peakTimes": [
+          { "label": "Morning", "share": 19 },
+          { "label": "Afternoon", "share": 24 },
+          { "label": "Prime Time", "share": 40 },
+          { "label": "Late Night", "share": 17 }
+        ],
+        "dayPatterns": [
+          { "label": "Mon-Wed", "share": 29 },
+          { "label": "Thu-Fri", "share": 24 },
+          { "label": "Weekend", "share": 47 }
+        ]
+      }
+    }
+  ],
+  "analytics": {
+    "ageGroups": [
+      { "label": "18-24", "share": 18 },
+      { "label": "25-34", "share": 32 },
+      { "label": "35-49", "share": 30 },
+      { "label": "50+", "share": 20 }
+    ],
+    "timeOfDay": [
+      { "label": "Morning (6am-11am)", "share": 14 },
+      { "label": "Afternoon (12pm-4pm)", "share": 28 },
+      { "label": "Prime Time (5pm-10pm)", "share": 44 },
+      { "label": "Late Night (10pm-1am)", "share": 14 }
+    ],
+    "daysOfWeek": [
+      { "label": "Monday-Wednesday", "share": 30 },
+      { "label": "Thursday-Friday", "share": 27 },
+      { "label": "Saturday-Sunday", "share": 43 }
+    ],
+    "watchingTips": [
+      "Prime time offers highest engagement for consumer campaigns.",
+      "Young adult viewers respond well to lifestyle, tech, and fashion messaging.",
+      "Family-oriented brands perform best in evening slots across the weekend."
+    ]
+  }
+}

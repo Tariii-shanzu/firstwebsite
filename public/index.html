@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive TV advertising cost tracker showing local and global channel pricing, coverage value, and audience insights."
+    />
+    <title>Relax Mode TV Ad Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="logo-mark">TV</div>
+          <div>
+            <p class="eyebrow">Media intelligence</p>
+            <h1>Relax Mode TV Ad Tracker</h1>
+          </div>
+        </div>
+        <div class="live-controls">
+          <span class="pulse-dot"></span>
+          <span id="liveStatus">Live pricing</span>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="hero-panel panel">
+          <div class="hero-copy">
+            <p class="eyebrow">TV Channel Cost Intelligence</p>
+            <h2>Compare price, reach, and audience value in one calm dashboard.</h2>
+          </div>
+          <div class="hero-cta">
+            <button id="refreshButton">Refresh Data</button>
+          </div>
+        </section>
+
+        <section class="kpis" id="kpiGrid"></section>
+
+        <section class="filters panel">
+          <div class="field-group">
+            <label for="regionFilter">Region</label>
+            <select id="regionFilter">
+              <option value="all">All regions</option>
+              <option value="Local">Local</option>
+              <option value="Global">Global</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="marketFilter">Market</label>
+            <select id="marketFilter">
+              <option value="all">All markets</option>
+              <option value="Local">Local</option>
+              <option value="Regional">Regional</option>
+              <option value="National">National</option>
+              <option value="Global">Global</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="durationFilter">Ad duration</label>
+            <select id="durationFilter">
+              <option value="30">30 sec</option>
+              <option value="15">15 sec</option>
+              <option value="60">60 sec</option>
+              <option value="90">90 sec</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="main-grid">
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Channel comparison</h3>
+            </div>
+            <div id="channelTable" class="table-wrap"></div>
+          </div>
+
+          <div class="panel chart-panel">
+            <div class="panel-header">
+              <h3>Coverage efficiency</h3>
+            </div>
+            <div id="coverageChart" class="coverage-chart"></div>
+          </div>
+        </section>
+
+        <section class="secondary-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Official contact channels</h3>
+            </div>
+            <div id="contactList" class="contact-list"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Advert content restrictions</h3>
+            </div>
+            <ul id="contentList" class="content-list"></ul>
+          </div>
+        </section>
+
+        <section class="secondary-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Duration vs cost</h3>
+            </div>
+            <div id="durationBarChart" class="duration-bars"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Audience watch profile</h3>
+            </div>
+            <div id="demographicChart" class="demographic-card"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
